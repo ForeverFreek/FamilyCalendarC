@@ -1,16 +1,20 @@
-﻿Der Buildvorgang wurde am 06.12.2014 20:48:32 gestartet.
-     1>Projekt "C:\Users\Armin Woerner\Documents\Programmierung\C++\FamilyCalendar [Console]\FamilyCalendar\FamilyCalendar.vcxproj" auf Knoten "2", Build Ziel(e).
+﻿Der Buildvorgang wurde am 16.12.2014 11:43:56 gestartet.
+     1>Projekt "C:\Users\Armin\Documents\C++\FamilyCalendar [Console]\FamilyCalendarC\FamilyCalendar\FamilyCalendar.vcxproj" auf Knoten "2", Rebuild Ziel(e).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Armin Woerner\Documents\Programmierung\Libraries\Boost\boost_1_56_0" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Calendar.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Libraries\Boost\boost_1_57_0 /I"C:\Users\Armin Woerner\Documents\Programmierung\Libraries\Boost\boost_1_56_0" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Calendar.cpp Comparators.cpp Event.cpp Main.cpp
+         Main.cpp
+         Event.cpp
+         Comparators.cpp
          Calendar.cpp
+         Code wird generiert...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Armin Woerner\Documents\Programmierung\C++\FamilyCalendar [Console]\Debug\FamilyCalendar.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Armin Woerner\Documents\Programmierung\Libraries\Boost\boost_1_56_0\stage\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Armin Woerner\Documents\Programmierung\C++\FamilyCalendar [Console]\Debug\FamilyCalendar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Armin Woerner\Documents\Programmierung\C++\FamilyCalendar [Console]\Debug\FamilyCalendar.lib" /MACHINE:X86 Debug\Calendar.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Armin\Documents\C++\FamilyCalendar [Console]\FamilyCalendarC\Debug\FamilyCalendar.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Libraries\Boost\boost_1_57_0\stage\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Armin\Documents\C++\FamilyCalendar [Console]\FamilyCalendarC\Debug\FamilyCalendar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Armin\Documents\C++\FamilyCalendar [Console]\FamilyCalendarC\Debug\FamilyCalendar.lib" /MACHINE:X86 Debug\Calendar.obj
          Debug\Comparators.obj
          Debug\Event.obj
          Debug\Main.obj
-         FamilyCalendar.vcxproj -> C:\Users\Armin Woerner\Documents\Programmierung\C++\FamilyCalendar [Console]\Debug\FamilyCalendar.exe
-     1>Die Erstellung des Projekts "C:\Users\Armin Woerner\Documents\Programmierung\C++\FamilyCalendar [Console]\FamilyCalendar\FamilyCalendar.vcxproj" ist abgeschlossen, Build Ziel(e).
+         FamilyCalendar.vcxproj -> C:\Users\Armin\Documents\C++\FamilyCalendar [Console]\FamilyCalendarC\Debug\FamilyCalendar.exe
+     1>Die Erstellung des Projekts "C:\Users\Armin\Documents\C++\FamilyCalendar [Console]\FamilyCalendarC\FamilyCalendar\FamilyCalendar.vcxproj" ist abgeschlossen, Rebuild Ziel(e).
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:00:04.44
+Verstrichene Zeit 00:00:16.65

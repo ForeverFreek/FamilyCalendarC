@@ -52,12 +52,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Armin Woerner\Documents\Programmierung\Libraries\Boost\boost_1_56_0</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Libraries\Boost\boost_1_57_0;C:\Users\Armin Woerner\Documents\Programmierung\Libraries\Boost\boost_1_56_0</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Armin Woerner\Documents\Programmierung\Libraries\Boost\boost_1_56_0\stage\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Libraries\Boost\boost_1_57_0\stage\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
